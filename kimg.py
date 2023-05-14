@@ -14,4 +14,4 @@ else:
 	segImg = segData.reshape((image.shape))
 	plt.axis('off')
 	plt.imshow(segImg)
-	plt.imsave(sys.argv[1], segImg)
+	plt.imsave(sys.argv[3], segImg)
